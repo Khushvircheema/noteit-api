@@ -5,7 +5,6 @@ import "dotenv/config";
 const connectToDatabase = async (databaseName) => {
   try {
     // Use mongoose to connect to MongoDB
-    // connect to cloud "mongodb+srv://Khushvir:test123@cluster0.hpej0o4.mongodb.net/?retryWrites=true&w=majority"
     // connect to local database "mongodb://127.0.0.1:27017/"
     await mongoose.connect(process.env.URL);
 
