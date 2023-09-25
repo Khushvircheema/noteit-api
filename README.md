@@ -30,7 +30,9 @@ You can make API calls to the following routes
 You can create update and delete notes.
 
 ## Technologies Used
-1. React
-2. React Router
-3. Material-UI (or any other UI library you used)
-4. Axios (for making API requests)
+1. JavaScript
+2. Node.js
+3. Express.js
+4. MongoDB
+5. Render for deployment
+6. npm
